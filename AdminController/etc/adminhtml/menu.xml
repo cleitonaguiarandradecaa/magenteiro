@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magenteiro_AdminController::menu"  title="Magenteiro Options" module="Magenteiro_AdminController" resource="Magentiro_AdminController::menu" sortOrder="10" />
+        <add id="Magenteiro_AdminController::item"  title="Magenteiro item" module="Magenteiro_AdminController" resource="Magentiro_AdminController::menu" sortOrder="20" action="magenteiroadmin/item" parent="Magenteiro_AdminController::menu"/>
+    </menu>
+</config>
